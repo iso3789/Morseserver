@@ -21,6 +21,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
 
 if __name__ == "__main__":
     HOST = "0.0.0.0"
+    #Error handling
     if len(sys.argv) != 2:
         print("Usage: " + sys.argv[0] + "<port>")
         exit (1)
